@@ -1,0 +1,14 @@
+server.port=8080
+
+spring.datasource.url=jdbc:mysql://localhost:3306/iot_application?useSSL=false&serverTimezone=Asia/Ho_Chi_Minh&allowPublicKeyRetrieval=true&characterEncoding=UTF-8
+spring.datasource.username=your_mysql_username
+spring.datasource.password=your_mysql_password
+
+mqtt.broker.url=tcp://localhost:1884
+mqtt.client.id=SpringBoot-PTIT-IoT-Server
+mqtt.username=your_mqtt_username
+mqtt.password=your_mqtt_password
+
+mqtt.topic.sensor=data/sensor
+mqtt.topic.control=device/control
+mqtt.topic.feedback=device/feedback

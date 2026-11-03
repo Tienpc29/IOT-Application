@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+backend/target/
+.m2/
+
+backend/src/main/resources/application.properties
